@@ -25,6 +25,7 @@ else                                        // Se o ano atual é o ano do site..
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css"/>
     <title><?php echo $tag_title ?></title>
 </head>
 
@@ -43,6 +44,7 @@ else                                        // Se o ano atual é o ano do site..
         </nav>
 
         <main><?php echo $page_content ?></main>
+</div>
 
 <footer>
     <div><?php echo $copyright ?><br></div>
@@ -52,5 +54,4 @@ else                                        // Se o ano atual é o ano do site..
 </div>
 
 </body>
-
 </html>

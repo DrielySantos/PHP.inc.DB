@@ -1,17 +1,17 @@
 -- Apaga o banco de dados caso ele exista:
 -- Isso é útil em "tempo de desenvolvimento".
 -- Quando o aplicativo estiver pronto, isso NUNCA deve ser usado.
-DROP DATABASE IF EXISTS phpincdb;
+DROP DATABASE IF EXISTS BlueSky;
 
 -- Recria o banco de dados:
 -- CHARACTER SET utf8 especifica que o banco de dados use a tabela UTF-8.
 -- COLLATE utf8_general_ci especifica que as buscas serão "case-insensitive".
-CREATE DATABASE phpincdb CHARACTER SET utf8 COLLATE utf8_general_ci;
+CREATE DATABASE BlueSky CHARACTER SET utf8 COLLATE utf8_general_ci;
 
 -- Seleciona banco de dados:
 -- Todas as ações seguintes se referem a este banco de dados, até que outro
 -- "USE nomedodb" seja encontrado.
-USE phpincdb;
+USE BlueSky;
 
 -- Cria a tabela users:
 CREATE TABLE users (

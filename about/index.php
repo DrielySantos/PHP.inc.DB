@@ -17,7 +17,7 @@ $page_title = 'Sobre...';
  **************************************************************/
 $page_content = <<<HTML
 
-<article>
+  <article>
 
     <h2>{$page_title}</h2>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, sint sequi nam tempora quis doloremque cupiditate eos quaerat nulla laudantium perspiciatis. Nisi esse commodi ipsam nostrum fuga omnis iure quos.</p>
